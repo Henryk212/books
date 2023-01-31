@@ -23,6 +23,7 @@ function filtrarPorDisponibilidade() {
 }
 
 function exibirValorTotalDosLivrosDispponiveisNaTela(valorTotal){
+    
     elementoComValorTotalDeLivrosDispoiveis.innerHTML=`
     <div class="livros__disponiveis">
     <p>Todos os livros disponíveis por R$ <span id="valor">${valorTotal}</span></p>
